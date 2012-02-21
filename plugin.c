@@ -20,6 +20,7 @@ G_MODULE_EXPORT const gchar version[] = VERSION;
 G_MODULE_EXPORT void
 plugin_register (void)
 {
+  {extern void proto_register_crrvision (void); proto_register_crrvision ();}
   {extern void proto_register_frcds (void); proto_register_frcds ();}
   {extern void proto_register_netcon (void); proto_register_netcon ();}
 }
@@ -27,6 +28,7 @@ plugin_register (void)
 G_MODULE_EXPORT void
 plugin_reg_handoff(void)
 {
+  {extern void proto_reg_handoff_crrvision (void); proto_reg_handoff_crrvision ();}
   {extern void proto_reg_handoff_frcds (void); proto_reg_handoff_frcds ();}
   {extern void proto_reg_handoff_netcon (void); proto_reg_handoff_netcon ();}
 }

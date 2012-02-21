@@ -29,7 +29,8 @@ PLUGIN_NAME = frc
 # the dissector sources (without any helpers)
 DISSECTOR_SRC = \
 	packet-frcds.c \
-	packet-netcon.c
+	packet-netcon.c \
+	packet-crrvision.c
 
 # Dissector helpers. They're included in the source files in this
 # directory, but they're not dissectors themselves, i.e. they're not

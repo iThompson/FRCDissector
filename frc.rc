@@ -1,7 +1,7 @@
 #include "winver.h"
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,0,2,0
+ FILEVERSION 0,1,0,0
  PRODUCTVERSION 1,6,2,38931
  FILEFLAGSMASK 0x0L
 #ifdef _DEBUG
@@ -18,8 +18,8 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Code Red Robotics, http://www.team639.org\0"
             VALUE "FileDescription", "frc protocol dissector\0"
-            VALUE "FileVersion", "0.0.2.0\0"
-            VALUE "InternalName", "frc 0.0.2.0\0"
+            VALUE "FileVersion", "0.1.0.0\0"
+            VALUE "InternalName", "frc 0.1.0.0\0"
             VALUE "LegalCopyright", "Copyright © 2011 Ian Thompson <thepi200@gmail.com> and others\0"
             VALUE "OriginalFilename", "frc.dll\0"
             VALUE "ProductName", "Wireshark\0"
