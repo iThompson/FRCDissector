@@ -1,1 +1,9 @@
 *.swp
+*.aps
+*.exp
+*.lib
+*.pdb
+*.rc
+*.res
+*.obj
+*~
