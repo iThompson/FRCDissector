@@ -94,7 +94,7 @@ void proto_register_crrvision(void)
 		},
 		{ &hf_crr_angle_high,
 		{ "High Angle", "crrvision.high.angle",
-		FT_UINT16, BASE_DEC,
+		FT_INT16, BASE_DEC,
 		NULL, 0x0,
 		NULL, HFILL }
 		},
@@ -106,7 +106,7 @@ void proto_register_crrvision(void)
 		},
 		{ &hf_crr_angle_right,
 		{ "Right Angle", "crrvision.right.angle",
-		FT_UINT16, BASE_DEC,
+		FT_INT16, BASE_DEC,
 		NULL, 0x0,
 		NULL, HFILL }
 		},
@@ -118,7 +118,7 @@ void proto_register_crrvision(void)
 		},
 		{ &hf_crr_angle_left,
 		{ "Left Angle", "crrvision.left.angle",
-		FT_UINT16, BASE_DEC,
+		FT_INT16, BASE_DEC,
 		NULL, 0x0,
 		NULL, HFILL }
 		},
@@ -130,7 +130,7 @@ void proto_register_crrvision(void)
 		},
 		{ &hf_crr_angle_low,
 		{ "Low Angle", "crrvision.low.angle",
-		FT_UINT16, BASE_DEC,
+		FT_INT16, BASE_DEC,
 		NULL, 0x0,
 		NULL, HFILL }
 		}
